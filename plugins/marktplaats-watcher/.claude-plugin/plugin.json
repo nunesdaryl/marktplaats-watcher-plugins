@@ -1,6 +1,11 @@
 {
   "name": "marktplaats-watcher",
   "version": "1.0.0",
-  "author": { "name": "Daryl Nunes" },
-  "description": "Use Marktplaats Watcher from Claude to search listings and review your own watches and scored alerts."
+  "author": {
+    "name": "Daryl Nunes"
+  },
+  "description": "Use Marktplaats Watcher from Claude to search listings and review your own watches and scored alerts.",
+  "license": "MIT",
+  "icon": "assets/icon-512.png",
+  "privacyPolicyUrl": "https://marktplaatswatcher.app/privacy/"
 }

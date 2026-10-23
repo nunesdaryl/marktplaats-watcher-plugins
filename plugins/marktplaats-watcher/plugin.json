@@ -2,5 +2,33 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "marktplaats-watcher",
   "version": "1.0.0",
-  "description": "Use Marktplaats Watcher from your agent to search listings and review your own watches and scored alerts."
+  "description": "Use Marktplaats Watcher from your agent to search listings and review your own watches and scored alerts.",
+  "license": "MIT",
+  "author": {
+    "name": "Daryl Nunes",
+    "email": "darylnunes@gmail.com"
+  },
+  "homepage": "https://marktplaatswatcher.app/agents/",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Marktplaats Watcher",
+        "shortDescription": "Watch Marktplaats listings",
+        "longDescription": "Watch Marktplaats listings and review scored alerts with your agent. Search public listings and review your own saved watches and matches. You sign in to your Marktplaats Watcher account; the service can create, change, pause or archive watches with an Undo e-mail for each change, and prepare an offer draft for your review. It does not send seller messages or place bids.",
+        "developerName": "Daryl Nunes",
+        "category": "Productivity",
+        "capabilities": [
+          "Search public listings",
+          "Review saved watches and scored alerts",
+          "Manage watches with Undo e-mail"
+        ],
+        "websiteURL": "https://marktplaatswatcher.app/",
+        "supportURL": "https://marktplaatswatcher.app/agents/",
+        "privacyPolicyURL": "https://marktplaatswatcher.app/privacy/",
+        "termsOfServiceURL": "https://marktplaatswatcher.app/terms/",
+        "composerIcon": "./assets/icon-512.png",
+        "logo": "./assets/icon-512.png"
+      }
+    }
+  }
 }

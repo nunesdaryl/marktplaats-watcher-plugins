@@ -1,0 +1,5 @@
+# Marktplaats Watcher plugin
+
+This plugin connects Claude, ChatGPT, and Codex to the hosted Marktplaats Watcher MCP server at https://marktplaatswatcher.app/api/mcp. It contains a skill for setting up and reviewing watches. The plugin runs no local commands or package installers. It sends authorized tool requests to Marktplaats Watcher, which searches public Marktplaats listings and reads or changes the signed-in person's saved watches and scored alerts. Sign in through the service's OAuth flow; never enter a Marktplaats password or session cookie in the plugin.
+
+For Claude Code, add the marketplace with `claude plugin marketplace add nunesdaryl/marktplaats-watcher-plugins`, then run `/plugin install marktplaats-watcher --marketplace nunesdaryl/marktplaats-watcher-plugins`. Start with the [agent setup guide](https://marktplaatswatcher.app/agents/). Review each proposed change and the Undo e-mail. The service can prepare an offer draft, but it cannot send seller messages or place bids. See the [privacy policy](https://marktplaatswatcher.app/privacy/) and [terms](https://marktplaatswatcher.app/terms/). Contact darylnunes@gmail.com for support.
