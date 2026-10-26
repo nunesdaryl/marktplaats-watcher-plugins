@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "marktplaats-watcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use Marktplaats Watcher from your agent to search listings and review your own watches and scored alerts.",
   "license": "MIT",
   "author": {

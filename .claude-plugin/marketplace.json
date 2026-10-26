@@ -2,5 +2,5 @@
   "name": "marktplaats-watcher",
   "description": "Connect an agent to your Marktplaats Watcher watches and scored alerts.",
   "owner": { "name": "Daryl Nunes" },
-  "plugins": [{ "name": "marktplaats-watcher", "source": "./plugins/marktplaats-watcher", "description": "Search listings and review your own watches and scored alerts." }]
+  "plugins": [{ "name": "marktplaats-watcher", "source": "./plugins/marktplaats-watcher", "version": "1.0.1", "description": "Search listings and review your own watches and scored alerts." }]
 }
